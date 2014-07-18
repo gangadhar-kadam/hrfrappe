@@ -84,6 +84,9 @@ class Database:
 		# execute
 		try:
 			if values!=():
+				print "gangadhar"
+				print query
+				print values
 				if isinstance(values, dict):
 					values = dict(values)
 
